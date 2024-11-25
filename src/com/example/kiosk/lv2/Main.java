@@ -25,7 +25,7 @@ public class Main {
 
         while (start) {
             // 메뉴 출력
-            System.out.println("\n햄버거 메뉴:");
+            System.out.println("\n[ HAMBURGER MENU ]");
             for (int i = 0; i < menuItems.size(); i++) {
                 System.out.println((i + 1) + ". " + menuItems.get(i).getName());
             }
