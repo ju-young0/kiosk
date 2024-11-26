@@ -1,4 +1,4 @@
-package com.example.kiosk.lv4;
+package com.example.kiosk.lv5;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,14 @@ public class Kiosk {
 
     public Kiosk(){
         this.menus = new ArrayList<>();
+    }
+
+    public List<Menu> getMenus() {
+        return menus;
+    }
+
+    public void setMenus(List<Menu> menus) {
+        this.menus = menus;
     }
 
     public void addMenu(Menu menu) {
